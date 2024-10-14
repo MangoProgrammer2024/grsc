@@ -4,8 +4,7 @@
 
 #include <string>
 
-typedef class Thread{
-public:
+typedef struct Thread{
 
 typedef std::string thread;
 
