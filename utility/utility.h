@@ -12,6 +12,7 @@ typedef std::string thread;
 const char * gsrc_thread(Thread*) const;
 
 int thread_pretick = 0;
+float pretick;
 
 enum util_type{
   trigger_script = 0,
@@ -21,8 +22,11 @@ enum util_type{
   entity_script = 4
 };
 
-Thread thread_true(thread);
+//thread true function
+Thread thread_true(bool thread(true));
 
+void call_tick(Thread);
+void append_type(Thread * type);
 
 };
 
