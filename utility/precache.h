@@ -15,6 +15,11 @@ Cache cache;
   void insertprecache(Cache(precache));
   void removeprecache(Cache(precache));
 
+Cache * Allocate_Cache(){
+Cache * C = (Cache*)malloc(sizeof(Cache));
+  return C;
+};
+
 float cacherun;
 
 };
