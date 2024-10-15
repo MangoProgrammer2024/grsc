@@ -10,3 +10,7 @@
 #endif
 
 #include <string>
+
+typedef struct REFERENCE{
+
+};
