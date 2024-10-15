@@ -18,12 +18,11 @@
 struct REFERENCE{
 const std::string local_reference(REFERENCE&)const;
 
-std::string _Refer__to_ *localized_string;
+std::string _Refer__to_;
 std::FILE * GStr;
 
 #define REFERENCE_LOCAL_STRING_SIZE 64x64
 
-const char *REFERENCE::local_reference(reference_buffer(REFERENCE_LOCAL_STRING_SIZE))const;
 char * _T[1024];
 
  std::size_t * localized_referencedSize(REFERENCE);
