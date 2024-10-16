@@ -10,6 +10,9 @@
 
 #include <string>
 
+char * txt[1024];
+static char txtBuff[2048];
+
 void printLn(const char * lnName, std::string * ln);
 void printConsole(auto Console, const char * current_console, *msg);
 void printLog(auto txtLog, const char * current_log, *txt);
