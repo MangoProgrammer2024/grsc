@@ -39,6 +39,10 @@ typedef struct CommonScript{
     return Script;
   };
 
+  /*****************
+  *Script Local Zone
+  *****************/
+  const char * Script_Zone(CommonScript script)const;
    
 };
 #endif
